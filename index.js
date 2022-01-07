@@ -4,7 +4,6 @@ var bubble=document.getElementById("bubble");
 button.addEventListener("click",appear);
 
 function appear(){
-    console.log( bubble.className);
  if(bubble.className=="hidden"){
      bubble.className="bubbles";
  }
